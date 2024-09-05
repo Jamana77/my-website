@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        .container{
+            padding:0 20%;
+            height: 100vh;
+        }
+        ul{
+        padding-top: 20px;
+        display: flex;
+        list-style-type: none;
+        gap: 2;
+
+        }
+        li{
+            padding: 10px 40px;
+            transition: all ease-in-out 0.5ms;
+
+            /* &:hover{
+            border-bottom: 2px solid;
+            font-weight: 900;
+            font-size: 20px;
+            color: white; */
+        }
+
+        
+        a{
+            color:white;
+            text-decoration: none;
+            display:inline-block;
+            padding: 0px 10px;
+            font-weight: 600;
+        }
+        ul>li>a:hover{
+            font-weight: 900;
+            color: red;
+            text-decoration: 2px solid underline;
+            font-size: 18px;
+          }
+          .row{
+            margin:auto;
+            display: flex;
+            justify-content: center;
+            background-color: red;
+            height: 80vh;
+            align-items: center;
+            flex-direction: column;
+          }
+          p{
+            color: white;
+            padding: 0px 20px;
+
+          }
+          button{
+            border: none;
+            outline: none;
+            cursor: pointer;
+            background-color: black;
+            color: white;
+            border-radius: 50px;
+            padding: 15px 20px;
+            letter-spacing: 1px;
+
+          }
+          h1{
+            border-bottom: 3px solid white;
+          }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="">Career</a></li>
+            <li><a href="">News</a></li>
+        </ul>
+
+        <div class="row">
+            <h1>New Collection</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo suscipit vitae nisi laudantium ipsa voluptatum voluptates, porro praesentium totam tempore aperiam beatae libero consequuntur corporis nam in illum, fugit tenetur!</p>
+            <button>Send Feedback</button>
+        </div>
+    </div>
+</body>
+</html>
